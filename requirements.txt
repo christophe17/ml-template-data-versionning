@@ -1,0 +1,16 @@
+dvc[gdrive,gs]
+
+
+# --------- hydra --------- #
+hydra-core==1.3.2
+hydra-colorlog==1.2.0
+
+
+# --------- others --------- #
+pyrootutils
+pre-commit
+rich
+pytest
+sh; platform_system != 'Windows'
+omegaconf
+

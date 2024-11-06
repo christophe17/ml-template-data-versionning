@@ -6,8 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV HOME=/home/${USER_NAME}
 ENV VIRTUAL_ENV=/home/${USER_NAME}/venv
 ENV PATH="/usr/local/gcloud/google-cloud-sdk/bin:${HOME}/.local/bin:${VIRTUAL_ENV}/bin:${PATH}"
-#   PYTHONPATH="/app:${PYTHONPATH}" \
-#   BUILD_POETRY_LOCK="${HOME}/poetry.lock.build"
+
 
 # --------------------------------- packages -------------------------------- #
 
